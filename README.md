@@ -15,7 +15,7 @@ Este simulador desarrollado en JavaScript y React corresponde a la primera preen
 
 Esta entrega corresponde a la primera pre-entrega del proyecto E-commerce del curso React JS de CoderHouse.
 
-## Entregables
+## Cumplimiento Entregables
 
 1. **Brand (título/nombre de la tienda)**: Nombre de la tienda "MiMatri" dentro de Navbar.
 2. **Un listado de categorías clickeables**: Categorías **Inicio**, **Productos**, **Servicios**, y **Contacto** disponibles en Navbar.
