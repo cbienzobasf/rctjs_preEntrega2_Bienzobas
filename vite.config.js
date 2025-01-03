@@ -1,7 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  base: '/rctjs_preEntrega1_Bienzobas/', // Asegúrate de incluir la barra inicial y el nombre exacto del repositorio
+});
