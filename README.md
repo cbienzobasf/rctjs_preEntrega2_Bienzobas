@@ -15,6 +15,15 @@ Este simulador desarrollado en JavaScript y React corresponde a la primera preen
 
 Esta entrega corresponde a la primera pre-entrega del proyecto E-commerce del curso React JS de CoderHouse.
 
+## Cumplimiento Entregables
+
+1. **Brand (título/nombre de la tienda)**: Nombre de la tienda "MiMatri" dentro de Navbar.
+2. **Un listado de categorías clickeables**: Categorías **Inicio**, **Productos**, **Servicios**, y **Contacto** disponibles en Navbar.
+3. **Incorpora alguna librería de estilos con bootstrap/materialize u otro de tu preferencia (opcional).** : Bootstrap como librería utilizada.
+4. **Crea un componente CartWidget.js que haga rendering de un ícono Cart, e inclúyelo dentro de NavBar.js para que esté visible en todo momento.**: Archivo **CartWidget.jsx** dentro de carpeta src ==> components ==> CartWidget.jsx. Este archivo contiene el código que se dedica a renderizar un ícono Cart, e inclúyelo dentro de NavBar.jsx.
+5. **Crea un componente ItemListContainer. Impórtalo dentro de App.js, y abajo de NavBar.js.**: Archivo **ItemListContainer.jsx** dentro de carpeta src ==> components ==> ItemListContainer.jsx. Este archivo contiene el código para crear el componente ItemListContainer para ser importando dentro de App.jsx.
+
+
 ## Conocimientos Aplicados
 
 1. **React y Componentes**:
