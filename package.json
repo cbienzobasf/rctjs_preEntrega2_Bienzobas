@@ -1,20 +1,25 @@
 {
   "name": "mimatri",
   "private": true,
+  "homepage": "https://cbienzobasf.github.io/rctjs_preEntrega1_Bienzobas/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "resize-images": "node scripts/resizeImages.js"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "glob": "^10.4.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.2",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
